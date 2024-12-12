@@ -1,0 +1,114 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Figtree-medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/figtree-v6-latin-500.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Figtree-extrabold';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/figtree-v6-latin-800.woff2') format('woff2');
+  }
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color:#F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.card {
+    border-radius:20px;
+    width:384px;
+    background-color:#fff;
+    box-shadow: 10px 10px;
+    position:absolute;
+    left:-1000;
+    
+    bottom: 1000;
+}
+
+.card__img {
+   margin-left: 24px;
+   margin-top: 24px;
+   margin-bottom: 24px;
+}
+
+.card__link__item {
+    width:58px;
+    margin-left: 24px;
+   
+}
+
+.card__link__item__par {
+    border-radius:4px;
+    display: inline;
+    padding:4px 12px;
+    background-color: #F4D04E;
+    font-size:14px;
+    font-family:"Figtree-extrabold",sans-serif;
+    color:#000;
+}
+
+.card__subtitle {
+    font-size:14px;
+    font-family:"Figtree-medium",sans-serif;
+    color:#000;
+    margin-left: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.card__title {
+    margin-left: 24px;
+    font-size:24px;
+    font-family:"Figtree-extrabold",sans-serif;
+    color:#000;
+}
+
+.card__title:hover {
+    color:#F4D04E;
+}
+
+.card__description {
+    margin-left:24px;
+    font-size:16px;
+    font-family:"Figtree-medium",sans-serif;
+    line-height: 150%;
+    color:grey;
+    margin-top: 12px;
+}
+.card__personals {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    font-family:"Figtree-extrabold", sans-serif;
+}
+.card__member__avatar {
+    margin-right: 12px;
+}
+.card__member__text {
+    
+    font-size:14px;
+    color:black;
+}
